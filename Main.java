@@ -12,23 +12,22 @@ public class Main {
         System.out.println("What is"+" "+ car.getBrand()+"'s"+" "+"model?");
         String UImodel = scan.nextLine();
         car.setModel(UImodel);
+        
+       System.out.println("What is your"+" "+car.getModel()+"'s"+" "+"color?");
+       String UIcolor = scan.nextLine();
+       car.setColor(UIcolor);
 
         System.out.println("What is your"+" "+ car.getBrand()+" "+ car.getModel()+"'s"+" "+"generating date?");
         int UIgenetatingDate = scan.nextInt();
         car.setGeneratingDate(UIgenetatingDate);
 
-        System.out.println("What is "+" "+ car.getBrand()+" "+ car.getModel()+"'s"+" "+"motor?");
-        double UImotor = scan.nextDouble();
-        car.setMotor(UImotor);
-
-       System.out.println("What is your"+" "+car.getModel()+"'s"+" "+"color?");
-       String UIcolor = scan.nextLine();
-       car.setColor(UIcolor);
-
         System.out.println("How many doors your car have?");
         int UIdoorNumber = scan.nextInt();
         car.setDoorNumber(UIdoorNumber);
 
+        System.out.println("What is "+" "+ car.getBrand()+" "+ car.getModel()+"'s"+" "+"motor?");
+        double UImotor = scan.nextDouble();
+        car.setMotor(UImotor);
 
 
 
